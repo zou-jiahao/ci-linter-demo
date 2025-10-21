@@ -7,3 +7,13 @@ def add(a, b):
     if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
         raise TypeError("Both arguments must be numbers")
     return a + b
+
+
+def subtract(a, b):
+    """
+    返回两个数的差：a - b。
+    如果输入不是数字，抛出 TypeError。
+    """
+    if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
+        raise TypeError("Both arguments must be numbers")
+    return a - b
