@@ -1,6 +1,6 @@
 # tests/test_calculator.py
 import pytest
-from calculator import add
+from calculator import add,subtract
 
 
 # ✅ 正常情况
