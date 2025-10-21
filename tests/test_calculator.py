@@ -1,6 +1,6 @@
 # tests/test_calculator.py
 import pytest
-from calculator import add,subtract
+from calculator import add, subtract
 
 
 # ✅ 正常情况
@@ -85,4 +85,3 @@ def test_subtract_with_none_raises_type_error():
 def test_subtract_with_list_raises_type_error():
     with pytest.raises(TypeError):
         subtract([1], [2])
-
