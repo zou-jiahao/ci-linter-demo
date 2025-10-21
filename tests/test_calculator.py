@@ -34,7 +34,7 @@ def test_add_mixed_types():
 def test_add_with_string_raises_type_error():
     with pytest.raises(TypeError):
         add(1, "2")
-        
+
 
 def test_add_with_none_raises_type_error():
     with pytest.raises(TypeError):
